@@ -12,8 +12,9 @@
 
 .container2 {
   position: absolute;
-  top: 10%;
-  left: 40.5%;  
+  transform: translate(-50% , -50%);
+  top: 50%;
+  left: 50%;  
   width: 250px;
   height: 450px;
   border-radius: 3%;
@@ -63,4 +64,73 @@
 }
 .attribution a { 
     color: hsl(228, 45%, 44%); 
+}
+
+@media (min-width: 220px) and (max-width: 375px) {
+    .container {
+        position: relative;
+        max-width: 375px;
+        height: 560px;
+    }
+    
+    .container2 {
+      position: absolute;
+      transform: translate(-50% , -50%);
+      top: 50%;
+      left: 50%;  
+      width: 250px;
+      height: 450px;
+      border-radius: 3%;
+      background-color: hsl(0, 0%, 100%);
+    }
+    
+    .image {
+      position: absolute;  
+      width: 230px;
+      height: 230px;
+      top: 10px;
+      left: 10px;
+      border-radius: 10%;
+      background-image: url(../Image/image-qr-code.png);
+      background-size: 100% 100%;
+      text-align: center;
+    }
+    
+    .texto1 {
+        position: absolute;
+        font-size: 16px;
+        text-align: center;
+        background-color: hsl(0, 0%, 100%);
+        font-family: Outfit;
+        font-weight: 700;
+        width: 200px;
+        top: 50%;
+        padding: 25px;
+    }
+    
+    .texto2 {
+        position: absolute;
+        top: 68%;
+        padding: 25px;
+        font-size: 14px;
+        text-align: center;
+        background-color: hsl(0, 0%, 100%);
+        font-family: Outfit;
+        font-weight: 400;
+        width: 200px;
+        border-radius: 15%;
+    }
+    
+    .attribution { 
+        font-size: 11px; 
+        text-align: center; 
+    }
+    .attribution a { 
+        color: hsl(228, 45%, 44%); 
+    }
+
+
+
+
+
 }
