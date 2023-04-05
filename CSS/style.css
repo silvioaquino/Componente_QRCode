@@ -16,7 +16,7 @@
   left: 40.5%;  
   width: 250px;
   height: 450px;
-  border-radius: 5%;
+  border-radius: 3%;
   background-color: hsl(0, 0%, 100%);
 }
 
@@ -46,7 +46,7 @@
 
 .texto2 {
     position: absolute;
-    top: 70%;
+    top: 68%;
     padding: 25px;
     font-size: 14px;
     text-align: center;
